@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-48 -58 96 66" width="96" height="66">
+  <ellipse cx="8" cy="5" rx="42" ry="9" fill="rgba(0,0,0,0.20)"/>
+  <!-- Top -->
+  <polygon points="-40,-48 40,-48 44,-52 -36,-52" fill="#c8b080"/>
+  <!-- Side -->
+  <polygon points="40,-48 44,-52 44,0 40,0" fill="#a89050"/>
+  <!-- Front -->
+  <rect x="-40" y="-48" width="80" height="48" fill="#b8a060" rx="1"/>
+  <!-- Plank lines -->
+  <line x1="-40" y1="-32" x2="40" y2="-32" stroke="#908050" stroke-width="1.5"/>
+  <line x1="-40" y1="-16" x2="40" y2="-16" stroke="#908050" stroke-width="1.5"/>
+  <line x1="-12" y1="-48" x2="-12" y2="0" stroke="#908050" stroke-width="1"/>
+  <line x1="14" y1="-48" x2="14" y2="0" stroke="#908050" stroke-width="1"/>
+  <!-- Metal corners -->
+  <rect x="-40" y="-48" width="8" height="8" rx="1" fill="#909090"/>
+  <rect x="32" y="-48" width="8" height="8" rx="1" fill="#909090"/>
+  <rect x="-40" y="-8" width="8" height="8" rx="1" fill="#909090"/>
+  <rect x="32" y="-8" width="8" height="8" rx="1" fill="#909090"/>
+  <!-- Metal band -->
+  <rect x="-40" y="-26" width="80" height="5" fill="#808888" opacity="0.5"/>
+  <text x="0" y="-22" text-anchor="middle" font-size="7" fill="#605030" font-family="Arial">FARM BOX</text>
+</svg>

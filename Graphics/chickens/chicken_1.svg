@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-52 -90 104 105" width="104" height="105">
+  <ellipse cx="0" cy="9" rx="25" ry="7.5" fill="rgba(0,0,0,0.22)"/>
+  <ellipse cx="0" cy="-20" rx="23" ry="17" fill="#c8a020"/>
+  <ellipse cx="8" cy="-21" rx="13" ry="10" transform="rotate(-11,8,-21)" fill="#b08018"/>
+  <ellipse cx="3" cy="-26" rx="9" ry="5" transform="rotate(-20,3,-26)" fill="rgba(255,255,255,0.16)"/>
+  <ellipse cx="-9" cy="-31" rx="7.5" ry="11" fill="#c8a020"/>
+  <ellipse cx="-9" cy="-44" rx="13" ry="12" fill="#c8a020"/>
+  <ellipse cx="-12" cy="-57" rx="3.6" ry="5.8" fill="#e03030"/>
+  <ellipse cx="-7" cy="-58" rx="3.6" ry="6.2" fill="#e03030"/>
+  <ellipse cx="-2" cy="-57" rx="3.6" ry="5.8" fill="#e03030"/>
+  <ellipse cx="-20" cy="-42" rx="4" ry="5.2" fill="#dd2020"/>
+  <circle cx="-4" cy="-45" r="4.2" fill="white"/>
+  <circle cx="-3" cy="-45" r="2.3" fill="#111"/>
+  <circle cx="-2.2" cy="-46.2" r="0.9" fill="white"/>
+  <polygon points="-22,-43 -33,-41 -22,-38" fill="#e0a020"/>
+  <line x1="-7" y1="-5" x2="-11" y2="9" stroke="#c08010" stroke-width="3.2" stroke-linecap="round"/>
+  <line x1="5" y1="-5" x2="9" y2="9" stroke="#c08010" stroke-width="3.2" stroke-linecap="round"/>
+  <line x1="-11" y1="9" x2="-18" y2="14" stroke="#c08010" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="-11" y1="9" x2="-11" y2="16" stroke="#c08010" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="-11" y1="9" x2="-4" y2="14" stroke="#c08010" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="9" y1="9" x2="2" y2="14" stroke="#c08010" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="9" y1="9" x2="9" y2="16" stroke="#c08010" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="9" y1="9" x2="16" y2="14" stroke="#c08010" stroke-width="2.2" stroke-linecap="round"/>
+</svg>

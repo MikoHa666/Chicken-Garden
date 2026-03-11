@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" width="1600" height="640">
+  <defs>
+    <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a6bbf"/>
+      <stop offset="60%" stop-color="#4aa8e8"/>
+      <stop offset="100%" stop-color="#b8daf0"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="1600" height="640" fill="url(#sky1)"/>
+  <!-- Sun -->
+  <circle cx="1300" cy="120" r="62" fill="rgba(255,250,180,0.18)"/>
+  <circle cx="1300" cy="120" r="44" fill="rgba(255,250,200,0.30)"/>
+  <circle cx="1300" cy="120" r="28" fill="#fffbe0"/>
+  <!-- Clouds -->
+  <g opacity="0.82">
+    <ellipse cx="200" cy="110" rx="80" ry="28" fill="white"/>
+    <ellipse cx="160" cy="118" rx="55" ry="22" fill="white"/>
+    <ellipse cx="248" cy="118" rx="58" ry="22" fill="white"/>
+  </g>
+  <g opacity="0.75">
+    <ellipse cx="700" cy="80" rx="100" ry="30" fill="white"/>
+    <ellipse cx="650" cy="90" rx="70" ry="24" fill="white"/>
+    <ellipse cx="768" cy="88" rx="75" ry="25" fill="white"/>
+  </g>
+  <g opacity="0.70">
+    <ellipse cx="1100" cy="150" rx="72" ry="22" fill="white"/>
+    <ellipse cx="1058" cy="158" rx="50" ry="18" fill="white"/>
+    <ellipse cx="1148" cy="157" rx="54" ry="19" fill="white"/>
+  </g>
+  <!-- Far alps (snow) -->
+  <polygon points="0,380 80,280 150,340 220,220 330,310 420,180 520,290 600,200 700,300 800,160 900,280 1000,200 1100,310 1200,180 1320,280 1400,210 1500,290 1600,240 1600,380" fill="#c0d0e0"/>
+  <!-- Snow caps -->
+  <polygon points="420,180 395,215 445,215" fill="rgba(255,255,255,0.92)"/>
+  <polygon points="800,160 770,202 830,202" fill="rgba(255,255,255,0.92)"/>
+  <polygon points="1200,180 1172,218 1228,218" fill="rgba(255,255,255,0.92)"/>
+  <polygon points="600,200 576,232 624,232" fill="rgba(255,255,255,0.88)"/>
+  <!-- Mid mountains (green) -->
+  <polygon points="0,380 100,300 200,340 320,280 440,330 560,270 680,320 800,260 920,310 1040,250 1160,300 1280,255 1400,295 1500,265 1600,285 1600,380" fill="#3a6a28"/>
+  <!-- Tree line -->
+  <path d="M0,380 Q40,365 80,375 Q120,360 160,372 Q200,358 240,370 Q280,355 320,368 Q360,352 400,365 Q440,348 480,362 Q520,346 560,360 Q600,344 640,357 Q680,342 720,355 Q760,340 800,353 Q840,338 880,351 Q920,335 960,349 Q1000,333 1040,347 Q1080,331 1120,345 Q1160,329 1200,343 Q1240,328 1280,342 Q1320,326 1360,340 Q1400,325 1440,338 Q1480,323 1520,337 Q1560,322 1600,336 L1600,380 Z" fill="#254a18"/>
+</svg>

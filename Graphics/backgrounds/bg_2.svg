@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" width="1600" height="640">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f4e9e"/>
+      <stop offset="55%" stop-color="#3690d8"/>
+      <stop offset="100%" stop-color="#8ec8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="640" fill="url(#sky2)"/>
+  <!-- Smaller wispy clouds -->
+  <g opacity="0.65">
+    <ellipse cx="350" cy="90" rx="120" ry="22" fill="white"/>
+    <ellipse cx="300" cy="98" rx="80" ry="16" fill="white"/>
+    <ellipse cx="420" cy="96" rx="88" ry="17" fill="white"/>
+  </g>
+  <g opacity="0.55">
+    <ellipse cx="1050" cy="70" rx="90" ry="18" fill="white"/>
+    <ellipse cx="1010" cy="76" rx="60" ry="13" fill="white"/>
+    <ellipse cx="1110" cy="74" rx="65" ry="14" fill="white"/>
+  </g>
+  <!-- More dramatic rocky peaks -->
+  <polygon points="0,380 60,250 130,300 210,190 310,260 410,150 510,240 600,160 700,250 820,130 930,230 1040,150 1160,240 1280,140 1400,220 1520,155 1600,200 1600,380" fill="#b8c4d0"/>
+  <!-- Snow caps larger -->
+  <polygon points="410,150 378,196 442,196" fill="rgba(255,255,255,0.95)"/>
+  <polygon points="820,130 784,178 856,178" fill="rgba(255,255,255,0.95)"/>
+  <polygon points="1280,140 1246,188 1314,188" fill="rgba(255,255,255,0.95)"/>
+  <polygon points="600,160 574,196 626,196" fill="rgba(255,255,255,0.90)"/>
+  <polygon points="1520,155 1494,192 1546,192" fill="rgba(255,255,255,0.88)"/>
+  <!-- Rocky mid ridge -->
+  <polygon points="0,380 80,308 180,330 300,288 420,318 540,278 660,305 780,270 900,298 1020,260 1140,290 1260,258 1380,285 1480,260 1600,275 1600,380" fill="#6a7868"/>
+  <!-- Some rocks -->
+  <ellipse cx="200" cy="345" rx="22" ry="14" fill="#5a6858"/>
+  <ellipse cx="650" cy="332" rx="18" ry="11" fill="#5a6858"/>
+  <ellipse cx="1100" cy="328" rx="24" ry="15" fill="#5a6858"/>
+  <!-- Sparse tree line higher up -->
+  <path d="M0,380 Q50,368 100,376 Q150,364 200,373 Q250,361 300,370 Q350,358 400,368 Q450,356 500,365 Q550,354 600,363 Q650,352 700,361 Q750,350 800,360 Q850,348 900,358 Q950,347 1000,356 Q1050,345 1100,355 Q1150,344 1200,354 Q1250,343 1300,353 Q1350,342 1400,352 Q1450,341 1500,351 Q1550,340 1600,350 L1600,380 Z" fill="#3a5230"/>
+</svg>

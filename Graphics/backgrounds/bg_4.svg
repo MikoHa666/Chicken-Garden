@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" width="1600" height="640">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0a40"/>
+      <stop offset="30%" stop-color="#802020"/>
+      <stop offset="70%" stop-color="#e06020"/>
+      <stop offset="100%" stop-color="#f0a840"/>
+    </linearGradient>
+    <radialGradient id="sun4" cx="50%" cy="90%" r="40%">
+      <stop offset="0%" stop-color="rgba(255,220,100,0.8)"/>
+      <stop offset="100%" stop-color="rgba(255,150,50,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="640" fill="url(#sky4)"/>
+  <!-- Sun glow near horizon -->
+  <ellipse cx="800" cy="640" rx="500" ry="280" fill="url(#sun4)"/>
+  <circle cx="800" cy="560" r="55" fill="rgba(255,230,120,0.6)"/>
+  <!-- Silhouette clouds -->
+  <ellipse cx="300" cy="220" rx="150" ry="32" fill="rgba(180,60,20,0.45)"/>
+  <ellipse cx="250" cy="230" rx="100" ry="25" fill="rgba(180,60,20,0.35)"/>
+  <ellipse cx="1300" cy="180" rx="130" ry="28" fill="rgba(180,60,20,0.40)"/>
+  <ellipse cx="1260" cy="190" rx="85" ry="21" fill="rgba(180,60,20,0.32)"/>
+  <!-- Mountain silhouettes (dark) -->
+  <polygon points="0,380 80,240 180,300 280,200 400,270 520,180 640,250 760,170 880,240 1000,165 1120,235 1240,165 1380,230 1500,170 1600,210 1600,380" fill="#1a0a10"/>
+  <!-- Slightly lighter mid range -->
+  <polygon points="0,380 100,310 200,332 320,292 440,318 560,280 680,308 800,268 920,298 1040,260 1160,290 1280,258 1400,285 1520,262 1600,278 1600,380" fill="#2a1218"/>
+  <!-- Warm tree silhouette -->
+  <path d="M0,380 Q60,368 120,376 Q180,364 240,373 Q300,361 360,370 Q420,358 480,368 Q540,356 600,365 Q660,354 720,363 Q780,352 840,361 Q900,350 960,360 Q1020,348 1080,358 Q1140,347 1200,357 Q1260,346 1320,356 Q1380,345 1440,355 Q1500,344 1560,354 Q1580,350 1600,352 L1600,380 Z" fill="#100808"/>
+  <!-- Stars already out -->
+  <circle cx="100" cy="80" r="1.5" fill="rgba(255,240,200,0.8)"/>
+  <circle cx="280" cy="50" r="2" fill="rgba(255,240,200,0.9)"/>
+  <circle cx="550" cy="70" r="1.5" fill="rgba(255,240,200,0.7)"/>
+  <circle cx="950" cy="55" r="2" fill="rgba(255,240,200,0.85)"/>
+  <circle cx="1200" cy="80" r="1.5" fill="rgba(255,240,200,0.75)"/>
+  <circle cx="1450" cy="60" r="2" fill="rgba(255,240,200,0.9)"/>
+</svg>

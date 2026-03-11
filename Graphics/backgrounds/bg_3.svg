@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" width="1600" height="640">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a2a5e"/>
+      <stop offset="50%" stop-color="#1e5090"/>
+      <stop offset="100%" stop-color="#5888b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="640" fill="url(#sky3)"/>
+  <!-- Dark dramatic clouds -->
+  <ellipse cx="400" cy="120" rx="180" ry="40" fill="rgba(140,160,180,0.35)"/>
+  <ellipse cx="1100" cy="100" rx="200" ry="42" fill="rgba(140,160,180,0.30)"/>
+  <!-- Dark mountain peaks -->
+  <polygon points="0,380 80,240 160,290 260,190 380,260 480,160 580,240 680,170 800,250 920,160 1040,240 1160,160 1300,240 1400,165 1500,230 1600,175 1600,380" fill="#7a8888"/>
+  <polygon points="480,160 450,202 510,202" fill="rgba(240,245,255,0.90)"/>
+  <polygon points="920,160 888,202 952,202" fill="rgba(240,245,255,0.90)"/>
+  <polygon points="1160,160 1128,202 1192,202" fill="rgba(240,245,255,0.90)"/>
+  <!-- Dark mid mountains -->
+  <polygon points="0,380 100,300 200,320 320,270 440,300 560,258 680,288 800,248 920,278 1040,238 1160,268 1280,230 1400,262 1520,232 1600,250 1600,380" fill="#2a3c28"/>
+  <!-- PINE TREES (dense) -->
+  <!-- Left cluster -->
+  <polygon points="-10,380 20,290 50,380" fill="#1a2e18"/>
+  <polygon points="25,380 55,285 85,380" fill="#1e3420"/>
+  <polygon points="60,380 95,278 130,380" fill="#152a14"/>
+  <polygon points="100,380 138,270 176,380" fill="#1a3018"/>
+  <polygon points="145,380 185,282 225,380" fill="#162c16"/>
+  <!-- Right cluster -->
+  <polygon points="1390,380 1420,288 1450,380" fill="#1a2e18"/>
+  <polygon points="1430,380 1462,278 1494,380" fill="#152a14"/>
+  <polygon points="1470,380 1505,270 1540,380" fill="#1e3420"/>
+  <polygon points="1510,380 1548,280 1586,380" fill="#162c16"/>
+  <polygon points="1555,380 1595,288 1635,380" fill="#1a3018"/>
+  <!-- Scattered mid trees -->
+  <polygon points="400,380 425,305 450,380" fill="#162c16"/>
+  <polygon points="680,380 708,295 736,380" fill="#1a3018"/>
+  <polygon points="900,380 928,300 956,380" fill="#152a14"/>
+  <polygon points="1150,380 1178,290 1206,380" fill="#1e3420"/>
+  <!-- Floor tree line -->
+  <path d="M0,380 L1600,380 L1600,365 Q1550,358 1500,366 Q1450,360 1400,368 Q1350,357 1300,366 Q1250,358 1200,367 Q1150,359 1100,368 Q1050,358 1000,367 Q950,357 900,366 Q850,358 800,367 Q750,357 700,366 Q650,358 600,367 Q550,357 500,366 Q450,358 400,367 Q350,357 300,366 Q250,358 200,367 Q150,358 100,366 Q50,358 0,366 Z" fill="#152a14"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -175 200 195" width="200" height="195">
+  <ellipse cx="18" cy="15" rx="90" ry="17" fill="rgba(0,0,0,0.20)"/>
+  <!-- Side wall -->
+  <polygon points="100,-118 146,-142 146,-14 100,0" fill="#4a3820"/>
+  <!-- Front wall horizontal wood slats -->
+  <rect x="-100" y="-118" width="200" height="118" fill="#7a5e3a"/>
+  <!-- Slat lines -->
+  <line x1="-100" y1="-104" x2="100" y2="-104" stroke="#5a4428" stroke-width="1.8"/>
+  <line x1="-100" y1="-90" x2="100" y2="-90" stroke="#5a4428" stroke-width="1.8"/>
+  <line x1="-100" y1="-76" x2="100" y2="-76" stroke="#5a4428" stroke-width="1.8"/>
+  <line x1="-100" y1="-62" x2="100" y2="-62" stroke="#5a4428" stroke-width="1.8"/>
+  <line x1="-100" y1="-48" x2="100" y2="-48" stroke="#5a4428" stroke-width="1.8"/>
+  <line x1="-100" y1="-34" x2="100" y2="-34" stroke="#5a4428" stroke-width="1.8"/>
+  <line x1="-100" y1="-20" x2="100" y2="-20" stroke="#5a4428" stroke-width="1.8"/>
+  <!-- Large modern windows -->
+  <rect x="-88" y="-112" width="50" height="40" rx="2" fill="#a8c8e8" stroke="#4a3820" stroke-width="2"/>
+  <rect x="38" y="-112" width="50" height="40" rx="2" fill="#a8c8e8" stroke="#4a3820" stroke-width="2"/>
+  <line x1="-63" y1="-112" x2="-63" y2="-72" stroke="#4a3820" stroke-width="1.5"/>
+  <line x1="-88" y1="-92" x2="-38" y2="-92" stroke="#4a3820" stroke-width="1.5"/>
+  <line x1="63" y1="-112" x2="63" y2="-72" stroke="#4a3820" stroke-width="1.5"/>
+  <line x1="38" y1="-92" x2="88" y2="-92" stroke="#4a3820" stroke-width="1.5"/>
+  <!-- Door wide -->
+  <rect x="-22" y="-2" width="44" height="-68" rx="2" fill="#3a2808"/>
+  <rect x="-22" y="-70" width="44" height="68" rx="2" fill="#3a2808"/>
+  <!-- Door handle -->
+  <rect x="10" y="-38" width="8" height="3" rx="1.5" fill="#c8a020"/>
+  <!-- Roof - steep modern gable -->
+  <polygon points="-100,-118 100,-118 0,-175" fill="#2a2a2a"/>
+  <polygon points="100,-118 146,-142 46,-199 0,-175" fill="#1e1e1e"/>
+  <!-- Roof edge trim -->
+  <line x1="-100" y1="-118" x2="0" y2="-175" stroke="#444" stroke-width="3"/>
+  <line x1="100" y1="-118" x2="0" y2="-175" stroke="#444" stroke-width="3"/>
+</svg>
