@@ -617,7 +617,7 @@ function handleClick(){
   if(hand.state==='carrying'){tryDeposit();return;}
   if(hand.state!=='idle')return;
   const wp=getWristPos();const tx=mouseX,ty=mouseY;
-  const dy=wp.y-ty;if(dy<25)return; // must click above wrist
+
   hand.frozenWristX=wp.x;hand.frozenWristY=wp.y;
   hand.targetX=tx;hand.targetY=ty;
   hand.hx=wp.x;hand.hy=wp.y;
@@ -701,9 +701,8 @@ function resolveHit(){
   const sorted=[...entities].filter(e=>!e.caught).sort((a,b)=>b.wz-a.wz);
   for(const en of sorted){
     const p=project(en.wx,en.wz,en.wy),s=p.scale*SCALE;
-    const hw=80*s,hh=72*s;
+    const hw=84*s,hh=76*s;
     if(p.sy<CH*HORIZON)continue;       // above horizon = invisible, skip
-    if(p.sy>CH*WRIST_Y_R-75*SCALE)continue;
     if(hx>=p.sx-hw&&hx<=p.sx+hw&&hy>=p.sy-hh&&hy<=p.sy+10*s){
       hand.slapTimer=10;
       if(en.type==='chicken'){
